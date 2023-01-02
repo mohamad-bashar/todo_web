@@ -11,12 +11,12 @@ def convert_number_to_words(number):
     else:
         return tens[number // 10] + ones[number % 10]
     
-def get_todos(filepath = r'.\todos.txt'):
+def get_todos(filepath = 'todos.txt'):
     with open(filepath, 'r') as file:
         todos = file.readlines()  
     return todos
 
 
-def write_todos(todos, filepath = r'.\todos.txt'):
+def write_todos(todos, filepath = 'todos.txt'):
     with open(filepath, 'w') as file:
         file.writelines(todos)   
