@@ -1,4 +1,1 @@
-Eat chiken.
-Learn python.
-Clean the room.
-hi.
+
